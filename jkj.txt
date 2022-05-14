@@ -1,0 +1,131 @@
+\documentclass[vietnamese,14pt,twoside]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+%\usepackage{utf8}{vietnam}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=3cm,rmargin=2cm}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{amsthm}
+
+\usepackage[unicode=true]
+{hyperref}
+%chưa biết
+\usepackage{babel}
+\usepackage{esint}
+\usepackage{pgf,tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usepackage{mathrsfs}
+
+
+\theoremstyle{definition}
+\newtheorem{bai}[]{\textbf{Bài}}
+\newcommand{\gi}{\centerline{\textbf{\textit{Giải.}}}}
+
+
+%Định dạng văn bản
+\usepackage{indentfirst}
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{6pt}
+\renewcommand{\baselinestretch}{1.3}%dãn cách dòng
+
+%môi trường liệt kê
+\usepackage{enumerate}
+\usepackage{enumitem}
+
+
+\usepackage{lastpage}
+\usepackage{longtable}
+\usepackage{hhline}
+\usepackage{fancyhdr}
+
+%dong khung
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\newmdenv[linecolor=red,skipabove=\topsep,skipbelow=\topsep,
+leftmargin=-5pt,rightmargin=-5pt,
+innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+
+
+%tiêu đề
+%\title{\huge\textbf{BÀI TẬP VỀ NHÀ TUẦN 1}}
+%\author{\Large \textit{\textcolor{blue}{Nguyễn Lê Thanh Hương, K46B, Sư phạm Toán}}}
+%\date{Tháng 03 năm 2022}
+%\makeatother
+
+\begin{document}
+
+    %\maketitle
+    \fontsize{13pt}{18pt}\selectfont % Lệnh thay đổi cỡ chữ thành cỡ 13, cỡ dòng 18 (theo quy chuẩn của Khóa Luận TN).
+
+\setlength{\baselineskip}{18truept}
+
+\begin{titlepage} % Đây là trang bìa
+
+\begin{center}
+
+{\large\bf TRƯỜNG ĐẠI HỌC SƯ PHẠM THÀNH PHỐ HỒ CHÍ MINH}\\
+
+{\large\bf KHOA TOÁN - TIN HỌC} \\
+
+{———————o0o——————–}
+
+\vskip 1cm
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=5cm, height=5cm]{logo_khoa_toan.png}
+\end{figure}
+
+\vskip 3cm
+
+{\bf BÀI TẬP VỀ NHÀ TUẦN 2}\\[1cm]
+
+{\Large\bf \textbf{LÝ THUYẾT TỐI ƯU TUYẾN TÍNH}}\\
+
+%\vskip 1cm
+
+%{\bf {\it Chuyên ngành:} Phương trình vi – tích phân}
+
+\vskip 3cm
+
+\begin{tabular}{r l}
+
+
+Họ và tên:&{\bf Nguyễn Lê Thanh Hương}\\[0.5cm]
+
+MSSV:&{\bf 46.01.101.047}\\[0.5cm]
+
+Giảng viên hướng dẫn:&{\bf Thầy Phạm Duy Khánh}
+
+\end{tabular}
+
+\vfill
+
+{\bf THÀNH PHỐ HỒ CHÍ MINH, 03/2022}
+
+\end{center}
+
+\end{titlepage}
+    \newpage
+    
+    \setcounter{page}{1}
+    \pagenumbering{arabic}
+	\pagestyle{fancy}
+    \fancyhf{}
+    \fancyhead[LE,RO]{\textit{\textcolor{blue}{BTVN Tuần 1}}}
+    \fancyhead[RE,LO]{\textit{\textcolor{blue}{Nguyễn Lê Thanh Hương}}}
+    \fancyfoot[LE,RO]{\textit{\textcolor{red}{Lý thuyết tối ưu tuyến tính}}}
+    \fancyfoot[RE,LO]{\textit{\textcolor{red}{Trang \thepage \hspace{1pt} / \pageref{LastPage}}}}
+    \renewcommand{\headrulewidth}{2pt}
+    \renewcommand{\footrulewidth}{0.5pt}
+\begin{document}
+\end{document}
